@@ -113,6 +113,7 @@
     color: var(--white);
     padding: 3rem 1rem;
     line-height: 1;
+    margin-bottom: -15rem;
 
 }
 
@@ -295,10 +296,11 @@ padding: 8rem calc((100vw - 1100px) / 2);
 
 .team__card p {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     color: var(--white);
     left: 25px;
-    font-size: 3rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px black; /* Black shadow */
 }
 
 .team__img {
